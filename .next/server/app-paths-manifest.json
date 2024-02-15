@@ -1,9 +1,5 @@
 {
-  "/_not-found": "app/_not-found.js",
   "/(home)/page": "app/(home)/page.js",
-  "/about-us/page": "app/about-us/page.js",
-  "/(movies)/movies/[id]/credits/page": "app/(movies)/movies/[id]/credits/page.js",
-  "/(movies)/movies/[id]/providers/page": "app/(movies)/movies/[id]/providers/page.js",
-  "/(movies)/movies/[id]/similar/page": "app/(movies)/movies/[id]/similar/page.js",
-  "/(movies)/movies/[id]/page": "app/(movies)/movies/[id]/page.js"
+  "/(movies)/movies/[id]/page": "app/(movies)/movies/[id]/page.js",
+  "/(movies)/movies/[id]/similar/page": "app/(movies)/movies/[id]/similar/page.js"
 }
