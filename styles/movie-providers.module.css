@@ -1,0 +1,14 @@
+.wrapDiv {display:flex; width:100%; box-sizing:border-box;}
+.wrapDiv > div {flex:1;}
+
+.flexList {
+  display:flex;
+  margin-top:10px;
+}
+.flexList li {
+  margin-right:10px;
+}
+.flexList li img {width:30px; border-radius:5px;}
+.flexList .subTxt {margin-top:5px; font-size:12px;}
+
+.noneTxt {margin-top:20px; font-size:14px;}
