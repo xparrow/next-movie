@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[637],{9117:function(n,e,r){Promise.resolve().then(r.bind(r,1204))},1204:function(n,e,r){"use strict";r.r(e),r.d(e,{default:function(){return t}});var u=r(3827);function t(){return(0,u.jsx)("h1",{children:"This is Error page"})}}},function(n){n.O(0,[971,69,744],function(){return n(n.s=9117)}),_N_E=n.O()}]);

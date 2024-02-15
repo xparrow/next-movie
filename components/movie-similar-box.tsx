@@ -15,7 +15,9 @@ export default function SimilarBox({backdrop_path, id, original_title, original_
 	const router = useRouter();
 	
 	const movieClick = ()=>{
-		router.push(`/movies/${id}`);
+		if(router){
+			router.push(`/movies/${id}`);
+		}
 	}
 	return(
 		<div className={styles.box} key={id}>

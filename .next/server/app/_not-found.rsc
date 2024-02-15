@@ -1,6 +1,0 @@
-2:I[2726,["901","static/chunks/901-26c3a90f1b69f73a.js","185","static/chunks/app/layout-47c12f8d9b34921d.js"],""]
-3:I[5613,[],""]
-4:I[1778,[],""]
-0:["lffgAtpeAg5fhWZdvthOQ",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",["$","h1",null,{"children":"Not found!"}],null]]},[null,["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","h1",null,{"children":"Not found!"}],"notFoundStyles":[],"styles":null}]]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6d0e6748a3399dfb.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
-5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Not found"}],["$","meta","3",{"name":"description","content":"The best movies on the best framework"}]]
-1:null
