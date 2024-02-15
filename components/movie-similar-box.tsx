@@ -1,5 +1,4 @@
 'use client';
-
 import { useRouter } from "next/navigation";
 import styles from "../styles/movie-credits.module.css";
 
@@ -12,9 +11,9 @@ interface SimilarProps {
 	backdrop_path: string
 }
 
-
 export default function SimilarBox({backdrop_path, id, original_title, original_language, title, release_date}:SimilarProps){
 	const router = useRouter();
+	
 	const movieClick = ()=>{
 		router.push(`/movies/${id}`);
 	}
