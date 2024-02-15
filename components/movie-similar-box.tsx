@@ -22,7 +22,7 @@ export default function SimilarBox({backdrop_path, id, original_title, original_
 	return(
 		<div className={styles.box} key={id}>
 			{
-				backdrop_path === null ? 
+				!backdrop_path ? 
 					<div className={styles.imgNotFound} onClick={movieClick}>
 						<span className={styles.txt}>이미지 없음</span>
 					</div>

@@ -15,7 +15,7 @@ export default async function MovieCredits({id}:{id:string}){
           return(
             <div className={styles.box} key={credit.id}>
               {
-                credit.profile_path === null ?
+                !credit.profile_path ?
                 <div className={styles.imgNotFoundCredit}>
                   <span className={styles.txt}>이미지 없음</span>
                 </div>
