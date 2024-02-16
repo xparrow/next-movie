@@ -1,7 +1,5 @@
-'use client';
+"use client";
 
-export default function ErrorMsg(){
-  return(
-    <h1>This is Error page</h1>
-  );
+export default function ErrorOMG() {
+  return <h1>lol something broke....</h1>;
 }
