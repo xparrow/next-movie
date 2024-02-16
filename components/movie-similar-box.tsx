@@ -1,5 +1,5 @@
 'use client';
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import styles from "../styles/movie-credits.module.css";
 
 interface SimilarProps {
@@ -12,23 +12,23 @@ interface SimilarProps {
 }
 
 export default function SimilarBox({backdrop_path, id, original_title, original_language, title, release_date}:SimilarProps){
-	const router = useRouter();
+	// const router = useRouter();
 	
-	const movieClick = ()=>{
-		if(!router){
-			return <p>Loading...</p>;
-		}
-		router.push(`/movies/${id}`);
-	}
+	// const movieClick = ()=>{
+	// 	if(!router){
+	// 		return <p>Loading...</p>;
+	// 	}
+	// 	router.push(`/movies/${id}`);
+	// }
 	return(
 		<div className={styles.box} key={id}>
 			{
 				!backdrop_path ? 
-					<div className={styles.imgNotFound} onClick={movieClick}>
+					<div className={styles.imgNotFound}>
 						<span className={styles.txt}>이미지 없음</span>
 					</div>
 				:
-				<img src={backdrop_path} alt={title} onClick={movieClick} className={styles.cursor} />
+				<img src={backdrop_path} alt={title} className={styles.cursor} />
 			}
 			
 			<p className={styles.tit}>{original_title}</p>
