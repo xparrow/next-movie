@@ -1,22 +1,30 @@
 import "../styles/global.css";
-import { Metadata } from "next";
-import Navigation from "../components/navigation";
+import { Metadata } from "next"
+import dynamic from "next/dynamic";
 
-export const metadata: Metadata = {
+const DynamicNavigationNoSSR = dynamic(
+  ()=> import("../components/navgation"),
+  {ssr:false}
+);
+export const metadata:Metadata = {
   title: {
     template: "%s | Next Movies",
     default: "Next Movies",
   },
-  description: "The best movies on the best framework",
-};
+  description: 'The best movies on the best framework',
+}
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body>
-        <Navigation />
+        <DynamicNavigationNoSSR />
         {children}
       </body>
     </html>
-  );
+  )
 }

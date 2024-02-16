@@ -2,8 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 50px;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .poster {
@@ -24,3 +22,10 @@
   margin-top: 20px;
   gap: 20px;
 }
+
+.product_list {
+  padding-left:20px;
+  font-size:13px;
+  list-style:disc;
+}
+.product_list img {max-width:30px;}

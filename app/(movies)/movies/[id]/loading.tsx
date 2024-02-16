@@ -1,3 +1,7 @@
-export default function Loading() {
-  return <h2>Loading a movie :id</h2>;
+import Loading from "../../../../components/Loading";
+
+export default function MovieLoading(){
+  return(
+    <Loading />
+  )
 }
