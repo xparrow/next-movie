@@ -1,11 +1,11 @@
 'use client';
 
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
 import styles from "../styles/navigation.module.css";
 
 export default function DetailNav({id}){
-
+	const path = usePathname();
 	return (
 		<nav className={styles.detailNav}>
 			<ul>
