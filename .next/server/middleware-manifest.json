@@ -1,6 +1,73 @@
 {
   "sortedMiddleware": [],
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/(home)/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/(home)/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/(home)/page.js"
+      ],
+      "name": "app/(home)/page",
+      "page": "/(home)/page",
+      "matchers": [
+        {
+          "regexp": "^/$",
+          "originalSource": "/"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/about-us/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/about-us/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/about-us/page.js"
+      ],
+      "name": "app/about-us/page",
+      "page": "/about-us/page",
+      "matchers": [
+        {
+          "regexp": "^/about\\-us$",
+          "originalSource": "/about-us"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/(movies)/movies/[id]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/(movies)/movies/[id]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/(movies)/movies/[id]/page.js"
+      ],
+      "name": "app/(movies)/movies/[id]/page",
+      "page": "/(movies)/movies/[id]/page",
+      "matchers": [
+        {
+          "regexp": "^/movies/(?<id>[^/]+?)$",
+          "originalSource": "/movies/[id]"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
   "version": 2
 }
