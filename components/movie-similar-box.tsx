@@ -15,20 +15,17 @@ export default function SimilarBox({backdrop_path, id, original_title, original_
 	const router = useRouter();
 	
 	const movieClick = ()=>{
-		if(!router){
-			return <p>Loading...</p>;
-		}
 		router.push(`/movies/${id}`);
 	}
 	return(
 		<div className={styles.box} key={id}>
 			{
-				!backdrop_path ? 
-					<div className={styles.imgNotFound} onClick={movieClick}>
-						<span className={styles.txt}>이미지 없음</span>
-					</div>
+				backdrop_path ? 
+					<img src={backdrop_path} alt={title} onClick={movieClick} className={styles.cursor} />	
 				:
-				<img src={backdrop_path} alt={title} onClick={movieClick} className={styles.cursor} />
+				<div className={styles.imgNotFound} onClick={movieClick}>
+					<span className={styles.txt}>이미지 없음</span>
+				</div>
 			}
 			
 			<p className={styles.tit}>{original_title}</p>

@@ -13,11 +13,8 @@ interface IMovieProps {
 export default function Movie({title, id, poster_path}: IMovieProps){
 	const router = useRouter();
 	const onClick = ()=>{
-		if(!router){
-			return <p>Loading...</p>;
-		}
 		router.push(`/movies/${id}`);		
-	}
+	};
 	return (
 		<div className={styles.movie}>
 			<img src={poster_path} alt={title} onClick={onClick} />
