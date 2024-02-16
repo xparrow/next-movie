@@ -1,0 +1,1 @@
+"use strict";exports.id=332,exports.ids=[332],exports.modules={2332:(e,t,o)=>{o.r(t),o.d(t,{$$typeof:()=>d,__esModule:()=>s,default:()=>a});let r=(0,o(6843).createProxy)(String.raw`E:\react\nico\learn-nextjs14\components\movie.tsx`),{__esModule:s,$$typeof:d}=r,a=r.default}};

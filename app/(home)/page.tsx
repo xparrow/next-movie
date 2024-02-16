@@ -1,11 +1,15 @@
-import Link from "next/link";
-import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css";
 import { API_URL } from "../../constants";
+import dynamic from "next/dynamic";
 
 export const metadata = {
 	title: "Home",
 };
+
+const DynamicMovieNoSSR = dynamic(
+  ()=> import("../../components/movie"),
+  {ssr:false}
+);
 
 async function getMovies() {
 	const res = await fetch(API_URL);
@@ -20,7 +24,7 @@ export default async function HomePage(){
 			{
 				movies.map((movie)=>{
 					return(
-						<Movie key={movie.id} id={movie.id} title={movie.title} poster_path={movie.poster_path} />
+						<DynamicMovieNoSSR key={movie.id} id={movie.id} title={movie.title} poster_path={movie.poster_path} />
 					);
 				})
 			}

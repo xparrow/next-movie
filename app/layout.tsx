@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 const DynamicNavigationNoSSR = dynamic(
   ()=> import("../components/navgation"),
   {ssr:false}
-)
+);
 export const metadata:Metadata = {
   title: {
     template: "%s | Next Movies",
