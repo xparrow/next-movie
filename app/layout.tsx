@@ -1,7 +1,11 @@
 import "../styles/global.css";
 import { Metadata } from "next"
-import Navigation from "../components/navgation"
+import dynamic from "next/dynamic";
 
+const DynamicNavigationNoSSR = dynamic(
+  ()=> import("../components/navgation"),
+  {ssr:false}
+)
 export const metadata:Metadata = {
   title: {
     template: "%s | Next Movies",
@@ -18,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navigation />
+        <DynamicNavigationNoSSR />
         {children}
       </body>
     </html>
