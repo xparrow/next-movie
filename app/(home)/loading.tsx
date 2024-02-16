@@ -1,7 +1,12 @@
-import Loading from "../../components/Loading";
+import dynamic from "next/dynamic";
+
+const DynamicLoadingNoSSR = dynamic(
+  ()=> import("../../components/Loading"),
+  {ssr:false}
+);
 
 export default function HomeLoading(){
   return (
-    <Loading />
+    <DynamicLoadingNoSSR />
   )
 }
