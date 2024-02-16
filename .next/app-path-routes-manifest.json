@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"/_not-found":"/_not-found","/(home)/page":"/","/about-us/page":"/about-us","/(movies)/movies/[id]/page":"/movies/[id]","/(movies)/movies/[id]/credits/page":"/movies/[id]/credits","/(movies)/movies/[id]/providers/page":"/movies/[id]/providers","/(movies)/movies/[id]/similar/page":"/movies/[id]/similar"}
+=======
+{"/_not-found":"/_not-found","/(home)/page":"/","/about-us/page":"/about-us","/(movies)/movies/[id]/page":"/movies/[id]"}
+>>>>>>> 5ed03eb2d7afd0e919a53efdcd79a67750416c7b

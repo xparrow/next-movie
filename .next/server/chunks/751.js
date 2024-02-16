@@ -1,1 +1,0 @@
-"use strict";exports.id=751,exports.ids=[751],exports.modules={6751:(e,t,o)=>{o.r(t),o.d(t,{$$typeof:()=>a,__esModule:()=>s,default:()=>n});let r=(0,o(6843).createProxy)(String.raw`E:\react\nico\learn-nextjs14\components\navgation.tsx`),{__esModule:s,$$typeof:a}=r,n=r.default}};

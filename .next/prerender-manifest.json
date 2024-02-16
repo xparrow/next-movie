@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":4,"routes":{"/about-us":{"experimentalBypassFor":[{"type":"header","key":"Next-Action"},{"type":"header","key":"content-type","value":"multipart/form-data"}],"initialRevalidateSeconds":false,"srcRoute":"/about-us","dataRoute":"/about-us.rsc"}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"22ad5d20759b50bfad91c03aae17a232","previewModeSigningKey":"84b86b72e76d3913083e05ab013861c95217f7b0da95cc569f96569bc7a85895","previewModeEncryptionKey":"b0a42365faa6f209889997021fb5bab7174143ac19515687a2c0bade9e474ede"}}
+=======
+{"version":4,"routes":{},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"e2a7ed94842e77223855bcc410aee2e8","previewModeSigningKey":"1b5b45cecbbd9fa34c1790af92a7e54953d422c6e6a113091862995a43e21499","previewModeEncryptionKey":"5b2a4482c6370440a13cd36f3b8c0232c007cd48a1d0d7148636aecf18de2e92"}}
+>>>>>>> 5ed03eb2d7afd0e919a53efdcd79a67750416c7b
