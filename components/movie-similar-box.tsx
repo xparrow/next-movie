@@ -19,7 +19,14 @@ export default function SimilarBox({backdrop_path, id, original_title, original_
 	}
 	return(
 		<div className={styles.box} key={id}>
-			<img src={backdrop_path} alt={title} onClick={movieClick} className={styles.cursor} />	
+			{
+				backdrop_path ? 
+					<img src={backdrop_path} alt={title} onClick={movieClick} className={styles.cursor} />	
+				:
+				<div className={styles.imgNotFound} onClick={movieClick}>
+					<span className={styles.txt}>이미지 없음</span>
+				</div>
+			}
 			
 			<p className={styles.tit}>{original_title}</p>
 			{ original_language !== 'en' && <p className={styles.subTit}>{title}</p>}
