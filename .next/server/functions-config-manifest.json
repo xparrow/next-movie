@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":1,"functions":{"/":{},"/_not-found":{},"/about-us":{}}}
-=======
-{"version":1,"functions":{"/about-us":{},"/_not-found":{},"/movies/[id]":{},"/":{}}}
->>>>>>> 5ed03eb2d7afd0e919a53efdcd79a67750416c7b
+{"version":1,"functions":{"/_not-found":{},"/":{},"/about-us":{}}}
