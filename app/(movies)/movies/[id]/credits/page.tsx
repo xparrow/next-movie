@@ -5,8 +5,9 @@ import Loading from "../../../../../components/Loading";
 
 export default function Credits({ params:{id}}:IParms){
   return(
-    <Suspense fallback={<Loading />}>
-      <MovieCredits id={id} />
-    </Suspense>
+    <div>test</div>
+    // <Suspense fallback={<Loading />}>
+    //   <MovieCredits id={id} />
+    // </Suspense>
   );
 }

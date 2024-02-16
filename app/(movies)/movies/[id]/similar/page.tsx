@@ -5,8 +5,9 @@ import Loading from "../../../../../components/Loading";
 
 export default function Similar({params:{id}}:IParms){
   return(
-    <Suspense fallback={<Loading />}>
-      <MovieSimilar id={id} />
-    </Suspense>
+    <div>test</div>
+    // <Suspense fallback={<Loading />}>
+    //   <MovieSimilar id={id} />
+    // </Suspense>
   );
 }
