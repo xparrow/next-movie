@@ -3,7 +3,7 @@ import { Metadata } from "next"
 import dynamic from "next/dynamic";
 
 const DynamicNavigationNoSSR = dynamic(
-  ()=> import("../components/navgation"),
+  ()=> import("../components/navigation"),
   {ssr:false}
 );
 export const metadata:Metadata = {
